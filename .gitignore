@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+*.env/
+
+# Streamlit files you don’t want to track
+.streamlit/
+
+# Python logs
+*.log
+
+# Model files (optional: if too large, use LFS)
+# *.h5
+# tokenizer.pickle
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.so
+*.dylib
+*.dll
+
+# Ignore personal settings
+*.ipynb_checkpoints
